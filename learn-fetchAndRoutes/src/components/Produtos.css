@@ -1,0 +1,33 @@
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza os produtos */
+    gap: 20px; /* Espaçamento entre os produtos, ajuste conforme necessário */
+    padding: 20px; /* Espaçamento interno no contêiner */
+}
+
+.AppDivProduto {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(25% - 20px); /* Ajustar a largura dos produtos, 25% para ficar maior */
+    box-sizing: border-box; /* Garantir que o padding e border não afetem a largura total */
+    margin: 10px; /* Espaçamento ao redor de cada produto */
+    border: 1px solid #ddd; /* Borda ao redor do produto */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 10px; /* Espaçamento interno no produto */
+    background-color: #f9f9f9; /* Cor de fundo para destaque */
+}
+
+.AppDivProduto img {
+    width: 100%;
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px 10px 0 0; /* Bordas arredondadas apenas no topo da imagem */
+}
+
+.AppDivProduto p {
+    margin-top: 10px; /* Espaço entre a imagem e o parágrafo */
+    text-align: left; /* Alinha o texto à esquerda */
+    width: auto; /* Ajusta a largura para o conteúdo */
+    padding-left: 0; /* Remove o padding interno se não for necessário */
+    margin-left: 0; /* Remove o margin interno se não for necessário */
+}

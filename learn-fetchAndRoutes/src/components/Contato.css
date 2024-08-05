@@ -1,0 +1,36 @@
+/* Estiliza o contêiner do artigo específico para o componente de contato */
+.contato-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    padding: 20px; /* Espaçamento interno */
+    background-color: #f9f9f9; /* Cor de fundo para destaque */
+    border-radius: 8px; /* Bordas arredondadas */
+    max-width: 800px; /* Largura máxima do contêiner */
+    margin: 20px auto; /* Centraliza horizontalmente e adiciona margem superior e inferior */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra ao contêiner para destaque */
+}
+
+.contato-img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Bordas arredondadas para a imagem */
+    margin-bottom: 20px; /* Espaçamento abaixo da imagem */
+}
+
+.contato-aside {
+    text-align: center; /* Centraliza o texto dentro do aside */
+}
+
+.contato-h2 {
+    margin-bottom: 15px; /* Espaçamento abaixo do título */
+    font-family: 'Arial', sans-serif; /* Fonte para o título */
+    font-size: 24px; /* Tamanho da fonte do título */
+}
+
+.contato-p {
+    margin: 10px 0; /* Espaçamento entre os parágrafos */
+    font-size: 18px; /* Tamanho da fonte para as informações */
+    color: #333; /* Cor do texto */
+}
